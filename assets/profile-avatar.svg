@@ -1,0 +1,38 @@
+<svg width="500" height="500" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="70" y1="50" x2="430" y2="460" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B2447"/>
+      <stop offset="0.55" stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#123C69"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="90" y1="80" x2="410" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="0.5" stop-color="#6EE7B7"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#000000" flood-opacity="0.38"/>
+    </filter>
+  </defs>
+
+  <rect width="500" height="500" rx="120" fill="url(#bg)"/>
+  <circle cx="250" cy="250" r="190" stroke="url(#ring)" stroke-width="18" opacity="0.95"/>
+  <circle cx="250" cy="250" r="158" fill="#0B1220" opacity="0.92" filter="url(#shadow)"/>
+
+  <g opacity="0.25">
+    <circle cx="145" cy="170" r="9" fill="#38BDF8"/>
+    <circle cx="355" cy="170" r="9" fill="#6EE7B7"/>
+    <circle cx="145" cy="330" r="9" fill="#A78BFA"/>
+    <circle cx="355" cy="330" r="9" fill="#38BDF8"/>
+    <path d="M154 170 H346 M145 179 V321 M355 179 V321 M154 330 H346" stroke="#E2E8F0" stroke-width="4"/>
+  </g>
+
+  <text x="250" y="252" fill="#E5F4FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="138" font-weight="900" text-anchor="middle" dominant-baseline="middle">
+    RS
+  </text>
+
+  <rect x="138" y="324" width="224" height="46" rx="23" fill="#111827" stroke="#38BDF8" stroke-width="2" opacity="0.95"/>
+  <text x="250" y="354" fill="#6EE7B7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="800" text-anchor="middle">
+    DATA ENGINEER
+  </text>
+</svg>
