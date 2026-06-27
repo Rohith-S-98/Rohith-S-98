@@ -1,28 +1,43 @@
 <div align="center">
-  <img src="assets/profile-banner.svg" alt="Rohith S - Data Engineer Banner" width="100%" />
+  <img src="assets/profile-banner.svg" alt="Rohith S - Data Engineering Portfolio Banner" width="100%" />
 </div>
 
-<br />
+<h1 align="center">Rohith S</h1>
 
-<div align="center">
-  <img src="assets/profile-avatar.svg" alt="Rohith S Profile Logo" width="130" />
-</div>
-
-<h1 align="center">Hi, I'm Rohith S 👋</h1>
-
-<h3 align="center">Data Engineer II | Azure | Databricks | PySpark | Delta Lake | Reltio MDM | CI/CD</h3>
+<h3 align="center">Data Engineer II | Azure • Databricks • PySpark • Delta Lake • Reltio MDM</h3>
 
 <p align="center">
-  Building production-style data pipelines with ingestion, data quality, orchestration, retry/recovery, observability, and lakehouse patterns.
+  I build data pipelines that are not just working locally — they are validated, monitored, retried, documented, and explainable.
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Rohith-S-98&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile views" />
+  <a href="https://github.com/Rohith-S-98/data-engineering-project"><img src="https://img.shields.io/badge/Featured_Project-End_to_End_Data_Engineering-38BDF8?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <img src="https://img.shields.io/badge/Current_Focus-Production_Readiness-6EE7B7?style=for-the-badge" />
+  <img src="https://komarev.com/ghpvc/?username=Rohith-S-98&label=Profile%20Views&color=0e75b6&style=for-the-badge" />
 </p>
 
 ---
 
-## 👨‍💻 Professional Snapshot
+## Why this profile is worth reviewing
+
+<table>
+  <tr>
+    <td width="25%" align="center"><b>Production Pipeline Thinking</b></td>
+    <td width="25%" align="center"><b>Real Client Context</b></td>
+    <td width="25%" align="center"><b>Versioned Portfolio</b></td>
+    <td width="25%" align="center"><b>Interview-Ready Story</b></td>
+  </tr>
+  <tr>
+    <td align="center">DQ, quarantine, audit, retry, SLA, CI/CD, observability</td>
+    <td align="center">Apexon<br />IQVIA NextGen MDM<br />Reltio integration</td>
+    <td align="center">End-to-end roadmap project<br />released in structured versions</td>
+    <td align="center">Can explain source → bronze → silver → gold → MDM flow</td>
+  </tr>
+</table>
+
+---
+
+## Professional Snapshot
 
 <table>
   <tr>
@@ -34,122 +49,158 @@
     <td>IQVIA - NextGen MDM</td>
   </tr>
   <tr>
-    <td><b>Core Stack</b></td>
-    <td>Databricks, PySpark, Azure Data Services, SQL, Delta Lake, Reltio MDM</td>
+    <td><b>Primary Stack</b></td>
+    <td>Databricks, PySpark, Azure Data Services, SQL, Delta Lake, Reltio MDM, GitHub CI/CD</td>
   </tr>
   <tr>
-    <td><b>Engineering Focus</b></td>
-    <td>ETL/ELT pipelines, API/file ingestion, data quality, medallion architecture, CI/CD, observability</td>
+    <td><b>Work Focus</b></td>
+    <td>API/file ingestion, data quality, quarantine handling, canonical modeling, JSON payloads, MDM integration</td>
+  </tr>
+  <tr>
+    <td><b>Career Direction</b></td>
+    <td>Production-ready Azure / Databricks Data Engineer</td>
   </tr>
 </table>
 
-I work on Data Engineering solutions involving source ingestion, data quality validation, transformation logic, canonical modeling, and downstream MDM integration. My current focus is strengthening production-grade pipeline design using Databricks, PySpark, Azure, Delta Lake, configuration-driven processing, and CI/CD discipline.
-
 ---
 
-## 🚀 What I Build
-
-- End-to-end Data Engineering pipelines using Python, PySpark, SQL, and Databricks
-- Bronze, Silver, Gold, Quarantine, and History-layer processing patterns
-- API and file ingestion frameworks with schema validation and data quality checks
-- Config-driven pipelines with audit tracking, retry handling, and failure recovery
-- Delta Lake-style merge, upsert, incremental load, and SCD Type 2 designs
-- Observability outputs for pipeline metrics, SLA monitoring, and Power BI-ready reporting
-
----
-
-## 🛠️ Tech Stack
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-Data%20Engineering-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/PySpark-Big%20Data-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white" />
-  <img src="https://img.shields.io/badge/Databricks-Lakehouse-FF3621?style=for-the-badge&logo=databricks&logoColor=white" />
-  <img src="https://img.shields.io/badge/Azure-Cloud%20Data-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
-  <img src="https://img.shields.io/badge/Delta%20Lake-Lakehouse-0A66C2?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/SQL-Data%20Modeling-4479A1?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Reltio-MDM-5B5FC7?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/GitHub-CI%2FCD-181717?style=for-the-badge&logo=github&logoColor=white" />
-</p>
-
----
-
-## 📌 Featured Portfolio Project
+## Featured Engineering Project
 
 <div align="center">
 
 ### [End-to-End Data Engineering Pipeline Simulator](https://github.com/Rohith-S-98/data-engineering-project)
 
+<b>A portfolio project built to demonstrate how a real production-style Data Engineering pipeline is designed, validated, monitored, and released.</b>
+
 </div>
 
-A portfolio-ready Data Engineering project designed to simulate real production pipeline patterns.
+```text
+API / File / Database Sources
+        ↓
+Raw Landing + Schema Contracts
+        ↓
+Bronze Validation + Watermarking
+        ↓
+Silver Transformations + Quarantine
+        ↓
+Gold Canonical Model + SCD Type 2 History
+        ↓
+Reltio-style JSON Payloads
+        ↓
+Audit, Observability, Alerts, Retry, CI/CD, Docker, Databricks/ADF-style Deployment
+```
+
+### What this project proves
 
 <table>
   <tr>
     <td><b>Ingestion</b></td>
-    <td>API ingestion, database ingestion, raw landing, live API integration planning</td>
+    <td>API ingestion, database ingestion, raw landing, live public API integration planning</td>
   </tr>
   <tr>
-    <td><b>Processing</b></td>
-    <td>Bronze, Silver, Gold, Quarantine, and SCD Type 2 history layers</td>
+    <td><b>Data Quality</b></td>
+    <td>Schema contracts, metadata-driven rules, severity handling, clean/quarantine split</td>
   </tr>
   <tr>
-    <td><b>Quality</b></td>
-    <td>Schema contracts, metadata-driven DQ rules, severity control, quarantine handling</td>
+    <td><b>Pipeline Reliability</b></td>
+    <td>Audit logs, job control, runtime parameters, retry/recovery, failure replay, SLA monitoring</td>
+  </tr>
+  <tr>
+    <td><b>Lakehouse Design</b></td>
+    <td>Bronze/Silver/Gold layers, Delta-style merge/upsert, SCD Type 2 history tracking</td>
   </tr>
   <tr>
     <td><b>Production Readiness</b></td>
-    <td>Audit logs, orchestration, runtime parameters, alerting, retry/recovery, CI/CD gates</td>
-  </tr>
-  <tr>
-    <td><b>Deployment Style</b></td>
-    <td>Docker, Databricks Asset Bundle-style structure, Azure Data Factory-style orchestration</td>
+    <td>Docker runtime, CI/CD quality gates, release verification, Databricks and ADF-style structure</td>
   </tr>
   <tr>
     <td><b>Observability</b></td>
-    <td>Pipeline metrics mart and Power BI-ready observability dashboard outputs</td>
+    <td>Pipeline metrics mart, Power BI-ready dashboard outputs, alerting and SLA signals</td>
   </tr>
 </table>
 
 ---
 
-## 📊 Resume Highlights
+## Real Work Context I Connect This With
 
-- Around 4 years of experience across data engineering, IT systems, ETL, reporting, and analytics support
-- Hands-on work with Databricks, PySpark, SQL, Azure Data Services, REST APIs, JSON, CI/CD, and Reltio MDM
-- Built and supported scalable ETL/ELT and reporting workflows across multiple business domains
-- Experience with Medallion Architecture, configuration-driven pipelines, data quality frameworks, and complex transformations
-- Resume impact highlights include improved data reliability, reduced manual effort, and optimized processing/reporting time through automation and pipeline improvements
+I connect my portfolio work with real Data Engineering scenarios from Apexon / IQVIA-style MDM pipelines:
+
+- Source ingestion from API, file, connector, and system feeds
+- Landing to staging/business-rule layers
+- Data quality checks with severity-based handling
+- Quarantine and clean data separation
+- Canonical model preparation for downstream systems
+- JSON payload generation for MDM-style integration
+- Incremental processing, audit tracking, error triage, and release discipline
 
 ---
 
-## 🎯 Current Learning Roadmap
+## Tech Stack
+
+<table>
+  <tr>
+    <td><b>Languages</b></td>
+    <td>Python, SQL</td>
+  </tr>
+  <tr>
+    <td><b>Big Data / Lakehouse</b></td>
+    <td>PySpark, Databricks, Delta Lake, Medallion Architecture</td>
+  </tr>
+  <tr>
+    <td><b>Cloud / Orchestration</b></td>
+    <td>Azure Data Engineering concepts, ADF-style orchestration, Databricks workflows</td>
+  </tr>
+  <tr>
+    <td><b>Data Engineering Patterns</b></td>
+    <td>ETL/ELT, incremental loads, watermarks, SCD Type 2, DQ frameworks, quarantine, observability</td>
+  </tr>
+  <tr>
+    <td><b>Production Practices</b></td>
+    <td>Git/GitHub, CI/CD gates, Docker, release verification, structured documentation</td>
+  </tr>
+  <tr>
+    <td><b>MDM / Integration</b></td>
+    <td>Reltio MDM concepts, canonical mapping, JSON payload preparation</td>
+  </tr>
+</table>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white" />
+  <img src="https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white" />
+  <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
+  <img src="https://img.shields.io/badge/Delta_Lake-0A66C2?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Reltio_MDM-5B5FC7?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/GitHub_CI%2FCD-181717?style=for-the-badge&logo=github&logoColor=white" />
+</p>
+
+---
+
+## Current Growth Roadmap
 
 ```text
-Python + SQL foundation
+Strong Python + SQL foundation
         ↓
-PySpark + Databricks engineering
+PySpark and Databricks engineering
         ↓
-Azure Data Engineering + ADF patterns
+Azure Data Engineering and orchestration patterns
         ↓
-CI/CD + Docker + production readiness
+CI/CD, Docker, release gates, and production readiness
         ↓
-Live API integration + observability
+Live API integration, monitoring, and observability
         ↓
-Interview storytelling + resume-ready project explanation
+Confident interview storytelling and job-ready project explanation
 ```
 
 ---
 
-## 📈 GitHub Activity
+## GitHub Activity
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Rohith-S-98&show_icons=true&theme=github_dark&hide_border=true" alt="Rohith's GitHub Stats" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rohith-S-98&layout=compact&theme=github_dark&hide_border=true" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Rohith-S-98&show_icons=true&theme=tokyonight&hide_border=true" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rohith-S-98&layout=compact&theme=tokyonight&hide_border=true" height="165" />
 </p>
 
 ---
 
-<h3 align="center">Building one version, one skill, and one production habit at a time.</h3>
+<h3 align="center">I am building my Data Engineering career in public — one production habit, one version, and one verified release at a time.</h3>
