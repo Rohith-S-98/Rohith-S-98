@@ -66,6 +66,34 @@
 
 </div>
 
+---
+
+## End-to-End Portfolio Flow
+
+```mermaid
+flowchart LR
+    A[Source Systems<br/>API / File / Database] --> B[Raw Landing Layer<br/>JSON / CSV / Input Tables]
+    B --> C[Schema Validation<br/>Contracts + Required Fields]
+    C --> D[Bronze Layer<br/>Initial Standardization]
+    D --> E[Data Quality Framework<br/>Rules + Severity + Validation]
+    E --> F{Valid?}
+    F -- Yes --> G[Silver Layer<br/>Cleaned & Transformed Data]
+    F -- No --> H[Quarantine Layer<br/>Rejected / Failed Records]
+
+    G --> I[Gold Layer<br/>Canonical Business Model]
+    I --> J[SCD Type 2 / History Tracking]
+    J --> K[Reltio-style JSON Payloads / Downstream Output]
+
+    K --> L[Audit & Run Metadata]
+    L --> M[Observability Metrics]
+    M --> N[Alerting + SLA Monitoring]
+    N --> O[Retry / Recovery / Replay]
+    O --> P[CI/CD + Release Verification]
+    P --> Q[Docker + Databricks / ADF-style Deployment]
+    Q --> R[Power BI-ready Dashboard Outputs]
+
+---
+
 ### What this project demonstrates
 
 <table>
@@ -171,6 +199,68 @@ Keep improving the portfolio with live API integration, observability, and deplo
         ↓
 Explain every project like a real client pipeline: source, rules, failures, recovery, and business output
 ```
+---
+
+## Versioned Project Evolution
+
+```mermaid
+flowchart TB
+
+    subgraph Foundation
+        V1[v1.0.0<br/>Python Config-Driven DQ Pipeline]
+        V2[v2.0.0<br/>PySpark Bronze/Silver/Gold]
+        V3[v3.0.0<br/>Databricks-style Structure]
+        V4[v4.0.0<br/>Centralized Configuration]
+        V5[v5.0.0<br/>Pipeline Audit Tracking]
+    end
+
+    subgraph Quality_and_Reliability
+        V6[v6.0.0<br/>Severity-based DQ Control]
+        V7[v7.0.0<br/>Custom Exceptions]
+        V8[v8.0.0<br/>Schema Validation]
+        V9[v9.0.0<br/>Incremental Load + Watermark]
+        V10[v10.0.0<br/>Lakehouse Storage Upgrade]
+        V11[v11.0.0<br/>Merge / Upsert Framework]
+        V12[v12.0.0<br/>SCD Type 2 History]
+        V13[v13.0.0<br/>Observability Metrics Mart]
+        V14[v14.0.0<br/>Orchestration + Job Control]
+        V15[v15.0.0<br/>Scheduling + Dependencies]
+        V16[v16.0.0<br/>Alerting + SLA Monitoring]
+        V17[v17.0.0<br/>Retry + Recovery + Replay]
+    end
+
+    subgraph Production_Readiness
+        V18[v18.0.0<br/>CI/CD Hardening]
+        V19[v19.0.0<br/>Docker Runtime]
+        V20[v20.0.0<br/>API Ingestion Framework]
+        V21[v21.0.0<br/>Database Ingestion Framework]
+        V22[v22.0.0<br/>Advanced DQ Rule Catalog]
+        V23[v23.0.0<br/>Databricks Asset Bundle-style Structure]
+        V24[v24.0.0<br/>ADF Orchestration Simulation]
+        V25[v25.0.0<br/>Power BI-ready Observability Dashboard]
+        V26[v26.0.0 Planned<br/>Live Public API Integration Testing]
+    end
+
+    V1 --> V2 --> V3 --> V4 --> V5 --> V6 --> V7 --> V8 --> V9 --> V10 --> V11 --> V12 --> V13 --> V14 --> V15 --> V16 --> V17 --> V18 --> V19 --> V20 --> V21 --> V22 --> V23 --> V24 --> V25 --> V26
+
+---
+
+
+---
+
+## Why the versioning matters
+
+```markdown
+## Why the versioning matters
+
+This portfolio is not a one-time demo project.  
+It is a **versioned Data Engineering system** that has been evolved step by step to reflect how real production pipelines mature over time:
+
+- First, the **core pipeline and medallion flow**
+- Then, **data quality, schema validation, incremental logic, and history tracking**
+- Then, **observability, orchestration, alerting, retry, and recovery**
+- Then, **CI/CD, Docker, ingestion frameworks, deployment patterns, and dashboards**
+- Next, **live public API integration testing** for stronger real-world integration practice
 
 ---
 
