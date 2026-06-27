@@ -4,25 +4,29 @@
 
 <h1 align="center">Hi, I'm Rohith S 👋</h1>
 
-<h3 align="center">Data Engineer | Azure | Databricks | PySpark | Delta Lake | Data Quality | CI/CD</h3>
+<h3 align="center">Data Engineer | Azure | Databricks | PySpark | Delta Lake | SQL | CI/CD</h3>
+
+<p align="center">
+  Building production-style data pipelines with ingestion, data quality, orchestration, observability, and lakehouse patterns.
+</p>
 
 ---
 
 ## 👨‍💻 About Me
 
-I am a Data Engineer focused on building production-style data pipelines using Python, PySpark, Databricks, Azure, Delta Lake, and SQL.
+I am a Data Engineer focused on building reliable, production-style data pipelines using Python, PySpark, Databricks, Azure, Delta Lake, and SQL.
 
-I am currently building an end-to-end Data Engineering portfolio roadmap that covers API ingestion, database ingestion, medallion architecture, schema validation, data quality, quarantine handling, incremental loading, audit tracking, orchestration, alerting, retry/recovery, Docker, CI/CD, Databricks-style deployment, Azure Data Factory-style orchestration, and Power BI-ready observability.
+My current learning and portfolio roadmap is centered on end-to-end Data Engineering: API ingestion, database ingestion, medallion architecture, schema validation, data quality, quarantine handling, incremental loading, audit tracking, orchestration, alerting, retry/recovery, Docker, CI/CD, Databricks-style deployment, Azure Data Factory-style orchestration, and Power BI-ready observability.
 
 ---
 
 ## 🚀 Current Focus
 
-* Building production-style Data Engineering pipelines
-* Strengthening PySpark, SQL, Databricks, Azure, and CI/CD
-* Practicing real-world API and database ingestion patterns
-* Improving interview explanation and project storytelling
-* Connecting project work with real Apexon/IQVIA-style Data Engineering scenarios
+- Building a complete end-to-end Data Engineering pipeline simulator
+- Strengthening PySpark, SQL, Databricks, Azure, and CI/CD fundamentals
+- Practicing real-world API and database ingestion scenarios
+- Improving production-readiness through validation, audit, retry, and observability
+- Preparing strong interview explanations and project storytelling
 
 ---
 
@@ -46,29 +50,25 @@ I am currently building an end-to-end Data Engineering portfolio roadmap that co
 
 A portfolio-ready Data Engineering project covering:
 
-* API and database ingestion
-* Bronze, Silver, Gold, Quarantine, and History layers
-* Schema validation and data quality rules
-* Incremental load and watermarking
-* Delta-style merge and SCD Type 2 tracking
-* Pipeline audit and observability
-* Alerting, SLA monitoring, retry, and recovery
-* Dockerized local runtime
-* CI/CD quality gates
-* Databricks and Azure Data Factory-style deployment structure
-* Power BI-ready observability outputs
+- API and database ingestion
+- Bronze, Silver, Gold, Quarantine, and History layers
+- Schema validation and metadata-driven data quality rules
+- Incremental load and watermarking
+- Delta-style merge and SCD Type 2 tracking
+- Pipeline audit and observability metrics
+- Alerting, SLA monitoring, retry, recovery, and replay handling
+- Dockerized local runtime
+- CI/CD quality gates and release verification
+- Databricks and Azure Data Factory-style deployment structure
+- Power BI-ready observability outputs
 
-Repository:
-
-```text
-Rohith-S-98/data-engineering-project
-```
+Repository: **Rohith-S-98/data-engineering-project**
 
 ---
 
 ## 🎯 Career Direction
 
-I am focused on becoming a strong production-ready Data Engineer who can explain, build, validate, deploy, and troubleshoot end-to-end data pipelines confidently.
+I am focused on becoming a strong production-ready Data Engineer who can design, build, validate, deploy, monitor, and explain end-to-end data pipelines confidently.
 
 ---
 
