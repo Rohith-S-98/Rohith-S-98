@@ -2,76 +2,46 @@
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
       <stop stop-color="#06111F"/>
-      <stop offset="0.45" stop-color="#0B2447"/>
+      <stop offset="0.5" stop-color="#0B2447"/>
       <stop offset="1" stop-color="#123C69"/>
     </linearGradient>
-    <linearGradient id="accent" x1="140" y1="70" x2="1060" y2="300" gradientUnits="userSpaceOnUse">
+    <linearGradient id="accent" x1="90" y1="65" x2="1110" y2="300" gradientUnits="userSpaceOnUse">
       <stop stop-color="#38BDF8"/>
-      <stop offset="0.55" stop-color="#6EE7B7"/>
+      <stop offset="0.5" stop-color="#6EE7B7"/>
       <stop offset="1" stop-color="#A78BFA"/>
     </linearGradient>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#000000" flood-opacity="0.38"/>
-    </filter>
   </defs>
 
   <rect width="1200" height="360" rx="30" fill="url(#bg)"/>
+  <circle cx="1060" cy="75" r="175" fill="#0EA5E9" opacity="0.15"/>
+  <circle cx="140" cy="315" r="195" fill="#22C55E" opacity="0.12"/>
+  <circle cx="960" cy="310" r="115" fill="#8B5CF6" opacity="0.10"/>
 
-  <circle cx="1040" cy="70" r="170" fill="#0EA5E9" opacity="0.16"/>
-  <circle cx="130" cy="315" r="190" fill="#22C55E" opacity="0.12"/>
-  <circle cx="980" cy="310" r="110" fill="#8B5CF6" opacity="0.11"/>
+  <rect x="68" y="58" width="1064" height="242" rx="30" fill="#0B1220" opacity="0.84"/>
+  <rect x="68" y="58" width="1064" height="242" rx="30" stroke="url(#accent)" stroke-width="3" opacity="0.92"/>
 
-  <g opacity="0.13">
-    <path d="M0 258 C220 154 370 338 605 222 C790 130 950 266 1200 158" stroke="#FFFFFF" stroke-width="2"/>
-    <path d="M0 304 C244 212 385 370 630 260 C825 172 960 302 1200 210" stroke="#FFFFFF" stroke-width="2"/>
+  <g transform="translate(102 88)">
+    <rect width="132" height="132" rx="34" fill="#0F172A" stroke="#38BDF8" stroke-width="3"/>
+    <text x="66" y="70" fill="#E5F4FF" font-family="Arial, sans-serif" font-size="44" font-weight="900" text-anchor="middle" dominant-baseline="middle">RS</text>
+    <rect x="24" y="91" width="84" height="24" rx="12" fill="#111827" stroke="#6EE7B7" stroke-width="1.5"/>
+    <text x="66" y="107" fill="#6EE7B7" font-family="Arial, sans-serif" font-size="10" font-weight="800" text-anchor="middle">DATA ENGINEER</text>
   </g>
 
-  <g opacity="0.18">
-    <path d="M875 95 h180 v40 h-180 z" stroke="#6EE7B7" stroke-width="2"/>
-    <path d="M910 155 h215 v40 h-215 z" stroke="#38BDF8" stroke-width="2"/>
-    <path d="M850 215 h235 v40 h-235 z" stroke="#A78BFA" stroke-width="2"/>
-    <path d="M965 135 v20 M1018 195 v20" stroke="#FFFFFF" stroke-width="2"/>
-  </g>
+  <text x="260" y="125" fill="#E5F4FF" font-family="Arial, sans-serif" font-size="50" font-weight="900">Rohith S</text>
+  <text x="260" y="170" fill="#6EE7B7" font-family="Arial, sans-serif" font-size="28" font-weight="700">Data Engineer II | Azure | Databricks | PySpark</text>
+  <text x="260" y="211" fill="#CBD5E1" font-family="Arial, sans-serif" font-size="21" font-weight="500">Production-style pipelines, data quality, orchestration, CI/CD, and observability</text>
+  <text x="260" y="244" fill="#94A3B8" font-family="Arial, sans-serif" font-size="18" font-weight="500">Lakehouse engineering | API ingestion | MDM integration | Delta processing</text>
 
-  <g filter="url(#shadow)">
-    <rect x="68" y="60" width="1064" height="238" rx="28" fill="#0B1220" opacity="0.80"/>
-    <rect x="68" y="60" width="1064" height="238" rx="28" stroke="url(#accent)" stroke-width="2.5" opacity="0.88"/>
-  </g>
-
-  <g transform="translate(102 92)">
-    <rect x="0" y="0" width="124" height="124" rx="30" fill="#0F172A" stroke="#38BDF8" stroke-width="3"/>
-    <path d="M34 86 L62 36 L90 86" stroke="#6EE7B7" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-    <circle cx="62" cy="96" r="8" fill="#38BDF8"/>
-    <path d="M28 34 H96" stroke="#38BDF8" stroke-width="6" stroke-linecap="round"/>
-    <path d="M31 105 H93" stroke="#A78BFA" stroke-width="5" stroke-linecap="round" opacity="0.85"/>
-  </g>
-
-  <text x="252" y="132" fill="#E5F4FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="50" font-weight="800">
-    Rohith S
-  </text>
-
-  <text x="252" y="177" fill="#6EE7B7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="28" font-weight="750">
-    Data Engineer | Azure | Databricks | PySpark
-  </text>
-
-  <text x="252" y="219" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21" font-weight="500">
-    Production-style pipelines • Data Quality • CI/CD • Lakehouse • Observability
-  </text>
-
-  <g transform="translate(252 248)">
-    <rect x="0" y="0" width="122" height="36" rx="18" fill="#0EA5E9" opacity="0.22"/>
-    <text x="61" y="24" fill="#E0F2FE" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle">Python</text>
-
-    <rect x="138" y="0" width="120" height="36" rx="18" fill="#F97316" opacity="0.22"/>
-    <text x="198" y="24" fill="#FFEDD5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle">PySpark</text>
-
-    <rect x="274" y="0" width="132" height="36" rx="18" fill="#EF4444" opacity="0.22"/>
-    <text x="340" y="24" fill="#FEE2E2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle">Databricks</text>
-
-    <rect x="422" y="0" width="108" height="36" rx="18" fill="#3B82F6" opacity="0.22"/>
-    <text x="476" y="24" fill="#DBEAFE" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle">Azure</text>
-
-    <rect x="546" y="0" width="128" height="36" rx="18" fill="#22C55E" opacity="0.22"/>
-    <text x="610" y="24" fill="#DCFCE7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle">Delta Lake</text>
+  <g transform="translate(260 268)">
+    <rect x="0" y="0" width="110" height="34" rx="17" fill="#0EA5E9" opacity="0.25"/>
+    <text x="55" y="23" fill="#E0F2FE" font-family="Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">Python</text>
+    <rect x="124" y="0" width="112" height="34" rx="17" fill="#F97316" opacity="0.25"/>
+    <text x="180" y="23" fill="#FFEDD5" font-family="Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">PySpark</text>
+    <rect x="250" y="0" width="126" height="34" rx="17" fill="#EF4444" opacity="0.25"/>
+    <text x="313" y="23" fill="#FEE2E2" font-family="Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">Databricks</text>
+    <rect x="390" y="0" width="96" height="34" rx="17" fill="#3B82F6" opacity="0.25"/>
+    <text x="438" y="23" fill="#DBEAFE" font-family="Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">Azure</text>
+    <rect x="500" y="0" width="126" height="34" rx="17" fill="#22C55E" opacity="0.25"/>
+    <text x="563" y="23" fill="#DCFCE7" font-family="Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">Delta Lake</text>
   </g>
 </svg>
