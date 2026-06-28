@@ -9,12 +9,13 @@
 <h3 align="center">Data Engineer II | Azure • Databricks • PySpark • Delta Lake • Reltio MDM</h3>
 
 <p align="center">
-  <b>I build production-style data pipelines that are validated, monitored, retried, documented, and explainable.</b>
+  <b>I build production-style data pipelines that are validated, monitored, retried, documented, versioned, and explainable.</b>
 </p>
 
 <p align="center">
   <a href="https://github.com/Rohith-S-98/data-engineering-project"><img src="https://img.shields.io/badge/View_Main_Project-End_to_End_Data_Engineering-38BDF8?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <img src="https://img.shields.io/badge/Focus-Production_Ready_Data_Engineering-6EE7B7?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Roadmap-v31.0.0_Completed-6EE7B7?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Focus-Production_Ready_Data_Engineering-0EA5E9?style=for-the-badge" />
   <img src="https://komarev.com/ghpvc/?username=Rohith-S-98&label=Profile%20Views&color=0e75b6&style=for-the-badge" />
 </p>
 
@@ -27,7 +28,7 @@
     <td align="center" width="25%"><b>Current Role</b><br />Data Engineer II<br />Apexon</td>
     <td align="center" width="25%"><b>Client Context</b><br />IQVIA<br />NextGen MDM</td>
     <td align="center" width="25%"><b>Core Stack</b><br />Azure, Databricks<br />PySpark, Delta Lake</td>
-    <td align="center" width="25%"><b>Portfolio Proof</b><br />Versioned end-to-end<br />DE pipeline system</td>
+    <td align="center" width="25%"><b>Portfolio Proof</b><br />v31 completed<br />end-to-end DE system</td>
   </tr>
 </table>
 
@@ -39,15 +40,15 @@
   <tr>
     <td width="33%" align="center">
       <b>Not just scripts</b><br />
-      I focus on production habits: validation, audit logs, retry, recovery, SLA signals, CI/CD, and release gates.
+      I focus on production habits: validation, audit logs, retry, recovery, SLA signals, CI/CD, release gates, and runtime cleanliness.
     </td>
     <td width="33%" align="center">
       <b>Real-world data flow thinking</b><br />
-      I connect source ingestion, data quality, quarantine, canonical modeling, and MDM-style JSON outputs.
+      I connect source ingestion, data quality, quarantine, canonical modeling, observability, and MDM-style JSON outputs.
     </td>
     <td width="33%" align="center">
       <b>Interview-ready explanation</b><br />
-      I can explain source to bronze to silver to gold to MDM with failures, observability, and deployment readiness.
+      I can explain source to bronze to silver to gold to MDM with failures, monitoring, recovery, deployment, and business impact.
     </td>
   </tr>
 </table>
@@ -68,13 +69,43 @@
 
 ---
 
+## Final roadmap status
+
+```text
+v0.0.0 through v31.0.0: completed and verified
+Latest release: v31.0.0 - Live Public API Integration Testing Framework
+Final baseline: main / origin/main / v31.0.0
+```
+
+### Final validation proof
+
+The main project has been verified with:
+
+```text
+172 tests passing
+release verification passing
+runtime cleanliness passing
+GitHub CI passing
+mocked CI-safe public API integration passing
+manual actual-live public API smoke test passing
+```
+
+Manual actual-live V31 smoke test result:
+
+```text
+actual_live_users_api: mode=manual-live, raw=10, normalized=10
+actual_live_posts_api: mode=manual-live, raw=100, normalized=100
+```
+
+---
+
 ## End-to-End Portfolio Flow
 
-This project is designed like a real Data Engineering platform: source data enters through API, file, or database-style inputs, passes through validation and quality gates, moves across lakehouse layers, generates downstream MDM-style outputs, and is protected with audit, observability, retry, CI/CD, and deployment controls.
+This project is designed like a real Data Engineering platform: source data enters through API, file, database, or public API-style inputs, passes through validation and quality gates, moves across lakehouse layers, generates downstream MDM-style outputs, and is protected with audit, observability, retry, CI/CD, deployment, and release controls.
 
 ```mermaid
 flowchart LR
-    A[Source Systems<br/>API / File / Database] --> B[Raw Landing<br/>JSON / CSV / Tables]
+    A[Source Systems<br/>API / File / DB / Public API] --> B[Raw Landing<br/>JSON / CSV / Tables]
     B --> C[Schema Contracts<br/>Required Fields + Types]
     C --> D[Bronze Layer<br/>Standardization]
     D --> E[Data Quality<br/>Rules + Severity]
@@ -91,27 +122,33 @@ flowchart LR
     O --> P[CI/CD + Release Gates]
     P --> Q[Docker + Databricks / ADF-style Deployment]
     Q --> R[Power BI-ready Outputs]
+    R --> S[Secret-safe Environments]
+    S --> T[E2E Integration Testing]
+    T --> U[Partitioning Strategy]
+    U --> V[Capstone + Storytelling]
+    V --> W[Public API Integration<br/>Mock CI + Manual Live Test]
 ```
 
 ### What this end-to-end system proves
 
 - I can design pipelines beyond simple ETL scripts.
 - I understand source ingestion, validation, transformation, quarantine, canonical modeling, and downstream integration.
-- I can implement production-style controls like audit, observability, alerting, retry, release verification, and CI/CD gates.
-- I can explain the complete flow from source → raw → bronze → silver → gold → MDM-style output.
+- I can implement production-style controls like audit, observability, alerting, retry, release verification, CI/CD gates, and runtime-output cleanliness.
+- I can explain the complete flow from source to raw to bronze to silver to gold to MDM-style output.
+- I can keep automated CI reliable while separating manual live integration tests from repeatable release gates.
 
 ---
 
 ## Versioned Project Evolution
 
-This portfolio has been built version by version to show how a real pipeline matures from a basic data flow into a production-ready engineering system.
+This portfolio was built version by version to show how a real pipeline matures from a basic data flow into a production-ready engineering system.
 
 ```mermaid
 flowchart LR
     A[v1-v5<br/>Foundation<br/>Python DQ, PySpark, Config, Audit] --> B[v6-v12<br/>Quality + Lakehouse<br/>DQ Severity, Schema, Watermark, Merge, SCD2]
     B --> C[v13-v17<br/>Operations<br/>Observability, Orchestration, Scheduling, Alerts, Retry]
     C --> D[v18-v22<br/>Production + Ingestion<br/>CI/CD, Docker, API, Database, Advanced DQ]
-    D --> E[v23-v26<br/>Deployment + Analytics<br/>Databricks, ADF, Power BI, Live API Testing]
+    D --> E[v23-v31<br/>Deployment + Analytics + Safety + E2E + Table Strategy + Storytelling + Capstone + Public API]
 ```
 
 <table>
@@ -141,21 +178,11 @@ flowchart LR
     <td>Production-readiness, testability, and ingestion framework design</td>
   </tr>
   <tr>
-    <td><b>v23 - v26</b></td>
-    <td>Databricks Asset Bundle-style structure, Azure Data Factory simulation, Power BI observability, planned live public API integration</td>
-    <td>Cloud deployment style, analytics visibility, and real-world integration practice</td>
+    <td><b>v23 - v31</b></td>
+    <td>Databricks metadata, ADF simulation, Power BI observability, secret-safe environments, E2E tests, partition strategy, storytelling pack, capstone validation, public API integration testing</td>
+    <td>Cloud deployment style, analytics visibility, release discipline, system validation, table-layout planning, interview readiness, and final integration maturity</td>
   </tr>
 </table>
-
-### Why the versioning matters
-
-This is not a one-time demo project. It is a versioned Data Engineering system that has been evolved step by step to reflect how real production pipelines mature:
-
-- First, the core pipeline and medallion flow
-- Then, data quality, schema validation, incremental logic, and history tracking
-- Then, observability, orchestration, alerting, retry, and recovery
-- Then, CI/CD, Docker, ingestion frameworks, deployment patterns, and dashboards
-- Next, live public API integration testing for stronger real-world integration practice
 
 ---
 
@@ -167,8 +194,8 @@ This is not a one-time demo project. It is a versioned Data Engineering system t
     <td><b>How I connect it in my portfolio</b></td>
   </tr>
   <tr>
-    <td>API, file, connector, and system source ingestion</td>
-    <td>Config-driven API/database ingestion and raw landing</td>
+    <td>API, file, connector, database, and source-system ingestion</td>
+    <td>Config-driven API/database ingestion, public API registry, and raw landing</td>
   </tr>
   <tr>
     <td>Landing to staging and business-rule transformations</td>
@@ -184,7 +211,7 @@ This is not a one-time demo project. It is a versioned Data Engineering system t
   </tr>
   <tr>
     <td>Incremental processing, audit tracking, and error triage</td>
-    <td>Watermarks, audit logs, retry/recovery, failure replay, SLA monitoring</td>
+    <td>Watermarks, audit logs, retry/recovery, failure replay, SLA monitoring, and release verification</td>
   </tr>
 </table>
 
@@ -216,7 +243,7 @@ This is not a one-time demo project. It is a versioned Data Engineering system t
   </tr>
   <tr>
     <td><b>Production Practices</b></td>
-    <td>Git/GitHub discipline, CI/CD gates, Docker, release verification, structured documentation</td>
+    <td>Git/GitHub discipline, CI/CD gates, Docker, release verification, structured documentation, runtime cleanliness</td>
   </tr>
 </table>
 
@@ -225,13 +252,13 @@ This is not a one-time demo project. It is a versioned Data Engineering system t
 ## Current engineering focus
 
 ```text
-Build stronger production-ready Data Engineering skills
+Completed v31 Data Engineering roadmap implementation
         ↓
-Master PySpark, SQL, Databricks, Azure, and CI/CD through implementation
+Strengthen SQL, PySpark, Databricks, Azure, CI/CD, and interview explanation
         ↓
-Keep improving the portfolio with live API integration, observability, and deployment maturity
+Practice real-work storytelling using Apexon / IQVIA-style MDM data flows
         ↓
-Explain every project like a real client pipeline: source, rules, failures, recovery, and business output
+Keep improving production-thinking: validation, observability, reliability, and deployment readiness
 ```
 
 ---
